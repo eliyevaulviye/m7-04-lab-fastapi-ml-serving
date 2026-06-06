@@ -1,0 +1,11 @@
+{
+  "request_id": "550e8400-e29b-41d4-a716-446655440000",
+  "model_version": "2.4.1",
+  "labels": [
+    { "label": "adult_content",      "score": 0.9871 },
+    { "label": "graphic_violence",   "score": 0.0091 },
+    { "label": "hate_symbols",       "score": 0.0021 },
+    { "label": "self_harm",          "score": 0.0012 },
+    { "label": "safe",               "score": 0.0005 }
+  ]
+}

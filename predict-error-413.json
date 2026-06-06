@@ -1,0 +1,9 @@
+{
+  "code": "image_too_large",
+  "message": "Uploaded image exceeds the 5 MB limit. Received 7,340,032 bytes; maximum allowed is 5,242,880 bytes.",
+  "request_id": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+  "details": {
+    "received_bytes": 7340032,
+    "max_bytes": 5242880
+  }
+}

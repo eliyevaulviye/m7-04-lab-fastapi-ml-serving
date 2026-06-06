@@ -1,0 +1,32 @@
+{
+  "request_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "model_version": "2.4.1",
+  "results": [
+    {
+      "id": "img-001",
+      "status": "ok",
+      "labels": [
+        { "label": "safe",             "score": 0.9934 },
+        { "label": "graphic_violence", "score": 0.0041 },
+        { "label": "adult_content",    "score": 0.0025 }
+      ]
+    },
+    {
+      "id": "img-002",
+      "status": "error",
+      "error": {
+        "code": "invalid_image",
+        "message": "Could not decode image bytes; file may be corrupt or truncated."
+      }
+    },
+    {
+      "id": "img-003",
+      "status": "ok",
+      "labels": [
+        { "label": "safe",          "score": 0.8812 },
+        { "label": "hate_symbols",  "score": 0.0741 },
+        { "label": "self_harm",     "score": 0.0447 }
+      ]
+    }
+  ]
+}
